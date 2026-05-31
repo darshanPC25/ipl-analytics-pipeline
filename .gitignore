@@ -1,0 +1,182 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# =========================
+# PySpark / Spark
+# =========================
+spark-warehouse/
+metastore_db/
+derby.log
+
+# =========================
+# Hadoop / Hive
+# =========================
+*.hive
+*.hql~
+.hadoop/
+.hive/
+
+# =========================
+# Airflow
+# =========================
+airflow.db
+airflow-webserver.pid
+logs/
+unittests.cfg
+webserver_config.py
+airflow.cfg
+
+# =========================
+# dbt
+# =========================
+target/
+dbt_packages/
+logs/
+profiles.yml
+
+# =========================
+# Data Files
+# =========================
+*.csv
+*.tsv
+*.parquet
+*.orc
+*.avro
+*.json
+*.jsonl
+*.xlsx
+*.xls
+
+# Ignore large raw datasets
+data/
+datasets/
+raw_data/
+
+# =========================
+# Machine Learning Models
+# =========================
+*.h5
+*.pkl
+*.joblib
+*.onnx
+models/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+# .env.*
+*.env
+
+# =========================
+# Secrets / Credentials
+# =========================
+credentials/
+secrets/
+*.pem
+*.key
+*.crt
+*.p12
+*.jks
+.aws/
+gcp-key.json
+
+# =========================
+# AWS / Azure / GCP
+# =========================
+.aws-sam/
+.azure/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
+
+# =========================
+# Docker
+# =========================
+docker-compose.override.yml
+*.log
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.iml
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Testing / Coverage
+# =========================
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+coverage.xml
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+tmp/
+temp/
+
+# =========================
+# Kafka
+# =========================
+.kafka/
+kafka-logs/
+
+# =========================
+# Delta Lake
+# =========================
+_delta_log/
+
+# =========================
+# Misc
+# =========================
+*.bak
+*.swp
+*.tmp
+
+data/
+logs/
+pass
