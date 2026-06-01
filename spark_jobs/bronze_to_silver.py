@@ -40,7 +40,11 @@ def read_bronze(spark):
         .option("header", "true") \
         .option("inferSchema", "true") \
         .csv(bronze_path)
-    
+
+    # CSV has a leading unnamed index column — drop it
+    if "_c0" in df.columns:
+        df = df.drop("_c0")
+
     print(f"Total records in Bronze: {df.count()}")
     print("Schema:")
     df.printSchema()
