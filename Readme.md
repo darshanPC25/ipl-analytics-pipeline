@@ -6,9 +6,7 @@ An end-to-end Data Engineering project built following industry-standard **Medal
 
 ## System Architecture
 
-```
-
-```
+![Project Flow Diagram](https://github.com/darshanPC25/ipl-analytics-pipeline/blob/main/images/FlowDiagramOfProject.png)
 
 ---
 
